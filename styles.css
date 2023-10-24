@@ -42,7 +42,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-#skills ul {
+#skills ul, #courses ul {
   list-style-type: none;
   padding-left: 0;
 }
@@ -105,4 +105,15 @@ a:hover {
 
 #contact-links a:hover {
   background-color: #555;
+}
+
+.education-entry, .experience-entry {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.experience-entry h3, .education-entry h3 {
+  margin-top: 0;
 }
